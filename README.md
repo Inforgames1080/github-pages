@@ -1,3 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Programação</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Badge de HTML5 -->
+  <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
+  <!-- Badge de JavaScript -->
+  <img alt="js" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+
+  <!-- Badge de Python -->
+  <img alt="python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+
+  <!-- Badge de CSS -->
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white">
+
+  <!-- Badge de Bootstrap -->
+  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+
+  <!-- Badge de Django -->
+  <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+
+
+        <h1>Bem-vindo ao Curso de Programação</h1>
+        <p>Aprenda as habilidades necessárias para criar websites, aplicativos e muito mais!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Curso de Programação</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modulos">Módulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contato">Dicas de livros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <section id="sobre" class="mb-4">
+            <h2>Sobre o Curso</h2>
+            <p>Este curso é projetado para iniciantes e desenvolvedores que desejam aprimorar suas habilidades. Comece do básico e avance para tópicos mais avançados, como JavaScript, Python e desenvolvimento de aplicativos.</p>
+        </section>
+
+        <section id="modulos" class="mb-4">
+            <h2>Módulos do Curso</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Introdução à Programação</li>
+                <li class="list-group-item">HTML e CSS Básico</li>
+                <li class="list-group-item">JavaScript para Iniciantes</li>
+                <li class="list-group-item">Python e Desenvolvimento Backend</li>
+                <li class="list-group-item">Python do básico ao avançado <a href="file:///home/anderson/%C3%81rea%20de%20trabalho/projeto%20site%20django/Explica%C3%A7%C3%A3o%20passo%20a%20passo.html">aqui</a> </li>
+                <li class="list-group-item">Projetos Práticos</li>
+
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Se tiver dúvidas, entre em contato conosco pelo e-mail <a href="mailto:curso@programacao.com">curso@programacao.com</a>.</p>
+            <button id="botao-contato" class="btn btn-primary">Clique para saber mais</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Curso de Programação. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        document.getElementById("botao-contato").addEventListener("click", function() {
+            alert("Obrigado por entrar em c
 <header>
 
 <!--
